@@ -13,7 +13,7 @@ public class ModulusQuizzerProject
 			int y = ((int)(Math.random()*10)+1);
 			int answer;
 			if (i==0)
-				{
+				{      
 					System.out.println(x + "%" + x + "= ");
 					answer = userInput.nextInt();
 					if (answer == x%x)
